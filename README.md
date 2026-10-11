@@ -1,0 +1,1 @@
+This is a coffee cup sarcasm generator. Click the button, and it will generate a random sarcastic message. 
