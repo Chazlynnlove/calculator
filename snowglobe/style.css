@@ -1,19 +1,59 @@
 body {
     margin: 0;
-    color: #a0a20d;
-    background: linear-gradient(#f97cef, #d395ff)
+    color:#162d4f;
+    background: linear-gradient(#e6f4ff, #ffffff);
+    font-family: "Lora", Georgia, serif;
 }
-h1 {
-    color:bisque
-}
-.tagline{
-    color: blueviolet
-}
-.globe-card {
-    background: yellow
-    border: 2px solid #23d487
-}
+ h1 {
+    color: 235fd4;
+    font-size: 2.5rem;
+ }
 
-#message {
+ .tagline {
+    color: #df5034;
+ }
+ .hero {
+    padding: 3rem 1rem 1rem;
+    text-align: center;
+ }
+
+ main {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 0 1rem 4rem;
+ }
+ .globe-card {
+    background: #fdf7e8;
+    border: 2px solid #235fd4;
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 1.25rem;
+ }
+ #message {
     font-style: italic;
+ }
+button {
+    font:inherit;
+    color: #ffffff;
+    background: #df5034;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background 150ms ease, transform 150ms ease;
+}
+button:hover {
+    background: #a43835;
+    transform: scale(1.05);
+}
+@keyframes shake {
+   0%, 100% {transform: translateX(0) rotate(0deg); }
+   20% {transform: translateX(-0.6rem) rotate(-4deg); }
+   40% {transform: translateX(0.6rem) rotate(4deg);}
+   60% { transform: translateX(-0.4rem) rotate(-2deg);}
+   80% {transform: translateX(0.4rem) rotate(2deg);}
+}
+.globle.shaking{
+    animation: shake 600ms ease;
 }
