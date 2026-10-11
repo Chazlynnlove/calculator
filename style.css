@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    color: #5b0c85;
-    background: linear-gradient(#b6e0ff, #72b4ff);
+    color: #162d4f;
+    background: linear-gradient(#e6f4ff, #ffffff);
     font-family: "Lora", Georgia, serif;
 }
 
 h1 {
-    color: #3ca1c0;
+    color: #011845;
     font-size: 2.5rem;
 }
 
 .tagline {
-    color: #ef56de;
+    color: #df5034;
 }
 
 .hero {
@@ -26,7 +26,7 @@ main {
 }
 
 .globe-card {
-    background: #fdf7e8;
+    background: #ff06a8;
     border: 2px solid #235fd4;
     padding: 2rem;
     display: flex;
@@ -58,7 +58,7 @@ main {
 button {
     font: inherit;
     color: #ffffff;
-    background: #df5034;
+    background: #b93dc4;
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
