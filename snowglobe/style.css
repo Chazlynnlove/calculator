@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    color: #a0a20d;
+    background: linear-gradient(#f97cef, #d395ff)
+}
+h1 {
+    color:bisque
+}
+.tagline{
+    color: blueviolet
+}
+.globe-card {
+    background: yellow
+    border: 2px solid #23d487
+}
+
+#message {
+    font-style: italic;
+}
