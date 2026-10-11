@@ -99,3 +99,7 @@ footer {
         animation-duration: 0.01ms;
     }
 }
+.globe img {
+width: 100px;
+height: 100px;
+}
