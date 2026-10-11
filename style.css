@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    color: #011845;
+    color: #235fd4;
     font-size: 2.5rem;
 }
 
@@ -26,7 +26,7 @@ main {
 }
 
 .globe-card {
-    background: #ff06a8;
+    background: #fdf7e8;
     border: 2px solid #235fd4;
     padding: 2rem;
     display: flex;
@@ -58,7 +58,7 @@ main {
 button {
     font: inherit;
     color: #ffffff;
-    background: #b93dc4;
+    background: #df5034;
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
